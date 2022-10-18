@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="page">
+    <header class="page__header">
+        <p class="page__header-text">Баннер со скидкой в 10% на одежду</p>
+    </header>
+    <nav class="navigation">
+        <div class="navigation__menu">
+            <ul class="navigation__list">
+                <li class="navigation__item--active"><a href="#">Женщины</a></li>
+                <li class="navigation__item"><a href="#">Мужчины</a></li>
+                <li class="navigation__item"><a href="#">Компания</a></li>
+            </ul>
+        </div>
+        <div class="navigation__user user-button">
+            <a class="user-button__item" href="#">Войти</a>
+            <a class="user-button__item" href="#">Зарегаться</a>
+        </div>
+    </nav>
+    <nav class="breadcrumbs">
+        <ol class="breadcrumbs__inner">
+            <li class="breadcrumbs__item--active"><a href="#">Мужчины</a></li>
+            <li class="breadcrumbs__item"><a href="#">Новые товары</a></li>
+            <li class="breadcrumbs__item"><a href="#">Верхняя одежда</a></li>
+        </ol>
+    </nav>
+    <article class="page__main">
+        <h1 class="page__title">Новое поступление одежды!</h1>
+        <p class="page__subtitle">Зацените нашу супер крутую одежду.</p>
+        <article class="page__product product-list">
+            <article class="product-list__item product">
+                <img class="product__img" src="https://img0.happywear.ru/2000x2000/cache/goods/K/R/KR201513_%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_front.jpg" alt="Белая Футболка">
+                <h1 class="product__title">Белая футболка</h1>
+                <p class="product__text">Крутая классная футболка</p>
+                <p class="product__color">Белая</p>
+                <p class="product__price">258 баксов</p>
+            </article>
+            <article class="product-list__item product">
+                <img class="product__img" src="https://img0.happywear.ru/2000x2000/cache/goods/K/R/KR201513_%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_front.jpg" alt="Красная Футболка">
+                <h1 class="product__title">Красная футболка</h1>
+                <p class="product__text">Крутая классная футболка</p>
+                <p class="product__color">Красная</p>
+                <p class="product__price">258 баксов</p>
+            </article>
+            <article class="product-list__item product">
+                <img class="product__img" src="https://img0.happywear.ru/2000x2000/cache/goods/K/R/KR201513_%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_front.jpg" alt="Красная Футболка">
+                <h1 class="product__title">Желтая футболка</h1>
+                <p class="product__text">Крутая классная футболка</p>
+                <p class="product__color">Желтая</p>
+                <p class="product__price">258 баксов</p>
+            </article>
+        </article>
+        <header class="page__filter filter">
+            <div class="filter__checkbox">
+                <div>
+                    <input class="checkbox" type="checkbox" name="Color" value="brown" id="Check_brown" onchange="js_script"/>
+                    <label class="filter__name" for="Check_brown">Коричневый</label>
+                </div>
+                <div>
+                    <input class="checkbox" type="checkbox" name="Color" value="red" id="Check_red" onchange="js_script"/>
+                    <label class="filter__name" for="Check_red">Красный</label>
+                </div>
+                <div>
+                    <input class="checkbox" type="checkbox" name="Color" value="orange" id="Check_orange" onchange="js_script"/>
+                    <label class="filter__name" for="Check_orange">Оранжевый</label>
+                </div>
+            </div>
+            <div class="filter__checkbox">
+                <div>
+                    <input class="checkbox" type="checkbox" name="Category" value="shoes" id="Check_shoes" onchange="js_script"/>
+                    <label class="filter__name" for="Check_shoes">Ботиночки</label>
+                </div>
+                <div>
+                    <input class="checkbox" type="checkbox" name="Category" value="pants" id="Check_pants" onchange="js_script"/>
+                    <label class="filter__name" for="Check_pants">Штанишки</label>
+                </div>
+                <div>
+                    <input class="checkbox" type="checkbox" name="Category" value="other" id="Check_other" onchange="js_script"/>
+                    <label class="filter__name" for="Check_other">Другое</label>
+                </div>
+            </div>
+            <div class="filter__checkbox">
+                <div>
+                    <input class="checkbox" type="checkbox" name="Sizes" value="S" id="Check_S" onchange="js_script"/>
+                    <label class="filter__name" for="Check_S">S</label>
+                </div>
+                <div>
+                    <input class="checkbox" type="checkbox" name="Sizes" value="M" id="Check_M" onchange="js_script"/>
+                    <label class="filter__name" for="Check_M">M</label>
+                </div>
+                <div>
+                    <input class="checkbox" type="checkbox" name="Sizes" value="L" id="Check_L" onchange="js_script"/>
+                    <label class="filter__name" for="Check_L">L</label>
+                </div>
+            </div>
+        </header>
+        
+    </article>
+    <footer class="page__footer footer">
+        <nav class="footer__nav">
+            <div class="footer__proucts-list">
+                <p class="footer__name">Продукты</p>
+                <ul>
+                    <li class="footer__list-item"><a href="#">Ящики</a></li>
+                    <li class="footer__list-item"><a href="#">Объекты</a></li>
+                    <li class="footer__list-item"><a href="#">Домашние пренадлежности</a></li>
+                </ul>
+            </div>    
+            <div>
+                <p class="footer__name">Компания</p>
+                <ul>
+                    <li class="footer__list-item"><a href="#">Кто мы</a></li>
+                    <li class="footer__list-item"><a href="#">Пресса</a></li>
+                    <li class="footer__list-item"><a href="#">Политика</a></li>
+                </ul>
+            </div>          
+        </nav>
+        <div>
+            <p class="footer__encourage-text">Зарегайтесь на новости</p>>
+            <p class="footer__encourage-text">Только свежие классные новости</p>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <div>
+                    <label class="checkbox-footer" for="exampleInputEmail1">Email</label>
+                    <input class="footer__bottom-input" type="email" id="exampleInputEmail1" />
+                </div>
+                <button class="footer__bottom-input" type="submit">Sign up</button>
+            </form>
+        </div> 
+        <p class="footer__copywrite">Copywrite @2022, Все права защищены</p>
+    </footer>
+</body>
+</html>
